@@ -1,1 +1,3 @@
-# split-It
+# SettledUp
+
+https://settledup.netlify.app/

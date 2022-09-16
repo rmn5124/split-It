@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #FF8D29;
+}
+
+.logo{
+    width: 50px;
+    margin: 10px;
+}
+
+.heading{
+    padding: 10px;
+    color: #E04D01;
+}
+
+#content{
+    background-color: #EC9B3B;
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-left: 2px solid #E04D01;
+}
+
+#mynetwork2{
+    width: 100%;
+    height: 100%;
+}
+
+#temptext{
+    color: #B22727;
+}
+
+#container{
+    width: 90%;
+    height: 70%;
+    background-color: #FEFBE7;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 15px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #E04D01;
+}
+
+.btn:hover{
+    color: #EC9B3B;
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+}
+
+.flex{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2rem;
+    color: #B22727;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ee5a1b #EC9B3B;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #EC9B3B;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ee5a1b;
+    border-radius: 10px;
+    border: 0px solid #EC9B3B;
+  }
